@@ -5,6 +5,21 @@
 
 ![](./snapshot.png)
 
+## Get Started
+
+```
+$ npm install
+$ npm start
+```
+
+or 
+
+```
+$ npm install
+$ npm run build
+```
+and then put the files which in "build" folder into a web server.
+
 ## Add A Task
 
 Just simply input the text and then press your 'Enter'.
