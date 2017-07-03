@@ -1,0 +1,115 @@
+.App {
+    /*text-align: center;*/
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+#title_svg {
+    margin: 64px 0 32px;
+}
+
+.empty {
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.input_text {
+    display: flex;
+    flex-flow: row;
+
+    align-items: center;
+}
+
+.input_text .input_type {
+    margin-right: 16px;
+}
+
+.list_items {
+
+}
+
+.list_item {
+    padding: 4px 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    border-bottom: 1px solid #d0d0d0;
+    margin: 8px;
+}
+
+.list_item .list_item__checkbox {
+    flex: 0;
+    padding-left: 8px;
+}
+
+.list_item .list_item__content {
+    flex: 5;
+    padding: 8px;
+    font-size: 22px;
+    overflow: hidden;
+
+}
+
+.list_item .list_item__content--done {
+    text-decoration: line-through;
+}
+
+.list_item .list_item__tag {
+    flex: 1;
+
+    overflow: hidden;
+}
+
+.list_item .list_item__btn__edit {
+    flex: 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.list_footer {
+    margin: 12px 24px;
+    padding: 8px 0;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#path_1 {
+    stroke-width: 4;
+    stroke: #34495E;
+    stroke-dashoffset: 7% 7%;
+    stroke-dasharray: 0 35%;
+    -moz-animation: animation 3s ease 1 forwards;
+    -o-animation: animation 3s ease 1 forwards;
+    -webkit-animation: animation 3s ease 1 forwards;
+}
+
+@-webkit-keyframes animation {
+    100% {
+        stroke-dasharray: 7% 7%;
+        stroke-dashoffset: 7%;
+    }
+}
+
+#path_2 {
+    stroke-width: 4;
+    stroke: #34495E;
+    stroke-dashoffset: 7% 7%;
+    stroke-dasharray: 0 35%;
+    -moz-animation: animation2 3s ease 1 forwards;
+    -o-animation: animation2 3s ease 1 forwards;
+    -webkit-animation: animation2 3s ease 1 forwards;
+}
+
+@-webkit-keyframes animation2 {
+    100% {
+        stroke-dasharray: 7% 7%;
+        stroke-dashoffset: 14%;
+    }
+}
