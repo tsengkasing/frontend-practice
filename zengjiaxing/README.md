@@ -1,8 +1,9 @@
 # Tiny Todo List
 
 ![](https://img.shields.io/badge/material--ui-need-brightgreen.svg)
-
 ![](https://img.shields.io/badge/react-need-brightgreen.svg)
+
+![](./snapshot.png)
 
 ## Add A Task
 
